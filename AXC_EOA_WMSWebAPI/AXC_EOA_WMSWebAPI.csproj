@@ -15,7 +15,7 @@
     <AssemblyName>AXC_EOA_WMSWebAPI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -57,6 +57,10 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPBusinessOneSDK, Version=1.0.0.1, Culture=neutral, PublicKeyToken=c7c3cb60e45d119f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\SAP\SAP Business One SDK\Lib\SAPBusinessOneSDK.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\structuremap.3.0.2.115\lib\net40\StructureMap.dll</HintPath>
@@ -396,7 +400,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>3159</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/</IISUrl>
+          <IISUrl>http://localhost:3159/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

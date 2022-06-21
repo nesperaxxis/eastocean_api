@@ -58,14 +58,14 @@ namespace SBOCLASS.Class
                 {
                     company.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2016;
                 }
-                else if (ConstantClass.SQLVersion == 2017)
-                {
-                    company.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2017;
-                }
-                else if (ConstantClass.SQLVersion == 2019)
-                {
-                    company.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2019;
-                }
+                //else if (ConstantClass.SQLVersion == 2017)
+                //{
+                //    company.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2017;
+                //}
+                //else if (ConstantClass.SQLVersion == 2019)
+                //{
+                //    company.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2019;
+                //}
 
                 company.DbUserName = DBUserName;
                 company.DbPassword = DBPassword;
